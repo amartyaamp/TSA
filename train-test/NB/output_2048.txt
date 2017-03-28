@@ -1,0 +1,26 @@
+[log]-Done loading data
+[log]-Done count transform
+[log]-Done tfidf transform
+[log]-Done cross validation
+[log]-Done training clf
+Total score-0.614634146341
+[log]-Done training clf
+Total score-0.560975609756
+[log]-Done training clf
+Total score-0.731707317073
+[log]-Done training clf
+Total score-0.707317073171
+[log]-Done training clf
+Total score-0.59512195122
+[log]-Done training clf
+Total score-0.634146341463
+[log]-Done training clf
+Total score-0.639024390244
+[log]-Done training clf
+Total score-0.634146341463
+[log]-Done training clf
+Total score-0.617647058824
+[log]-Done training clf
+Total score-0.656862745098
+
+Mean = 63.91

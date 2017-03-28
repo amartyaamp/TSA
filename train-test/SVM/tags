@@ -1,0 +1,13 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+clf	/home/amartyac/Assignments/NLP/A2/train-test/SVM/training.py	/^    clf = svm.LinearSVC(C=0.75,class_weight='auto').fit(X_tf_idf[train_index],Y[train_index]) $/;"	v	language:Python
+Cvectorizer	/home/amartyac/Assignments/NLP/A2/train-test/SVM/training.py	/^Cvectorizer = CountVectorizer(decode_error='ignore',stop_words='english',lowercase=False)$/;"	v	language:Python
+kf	/home/amartyac/Assignments/NLP/A2/train-test/SVM/training.py	/^kf = cross_validation.StratifiedKFold(sent,n_folds=10)$/;"	v	language:Python
+result	/home/amartyac/Assignments/NLP/A2/train-test/SVM/training.py	/^    result = clf.predict(X_tf_idf[test_index])$/;"	v	language:Python
+sent	/home/amartyac/Assignments/NLP/A2/train-test/SVM/training.py	/^sent = pickle.load(open(sys.argv[2]))$/;"	v	language:Python
+sent	/home/amartyac/Assignments/NLP/A2/train-test/SVM/training.py	/^sent = []$/;"	v	language:Python
+tfidfTransform	/home/amartyac/Assignments/NLP/A2/train-test/SVM/training.py	/^tfidfTransform = TfidfTransformer()$/;"	v	language:Python
+tweet	/home/amartyac/Assignments/NLP/A2/train-test/SVM/training.py	/^tweet = pickle.load(open(sys.argv[1]))$/;"	v	language:Python
+tweet	/home/amartyac/Assignments/NLP/A2/train-test/SVM/training.py	/^tweet = []$/;"	v	language:Python
+X	/home/amartyac/Assignments/NLP/A2/train-test/SVM/training.py	/^X = Cvectorizer.fit_transform(tweet)$/;"	v	language:Python
+X_tf_idf	/home/amartyac/Assignments/NLP/A2/train-test/SVM/training.py	/^X_tf_idf = tfidfTransform.fit_transform(X)$/;"	v	language:Python
+Y	/home/amartyac/Assignments/NLP/A2/train-test/SVM/training.py	/^Y = np.array(sent)$/;"	v	language:Python

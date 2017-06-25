@@ -1,0 +1,5 @@
+#### Vectors created from tweets ####
+#### IDF Vectors created  ####
+#### Predicting .... ####
+Negative
+Positive

@@ -38,7 +38,7 @@ for line in input_file:
 		s = s+' '+token
 		s=s.strip()
 		 
-
+print "In feature_extraction -- tweets-{}".format(tweets)
 pickle.dump(tweets,open('prep_tweets.p','wb'))
 input_file.close()
 
